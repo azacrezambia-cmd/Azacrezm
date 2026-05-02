@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Cedarville+Cursive&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-emerald-deep: #064E3B;
+  --color-emerald-primary: #047857;
+  --color-orange-warm: #EA580C;
+  --color-orange-light: #F97316;
+  --color-brand-dark: #022C22;
+  --color-brand-light: #F8FAFC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
